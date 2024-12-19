@@ -52,9 +52,11 @@ print(f"Variable (string): {variable}, Type: {type(variable)}")
 variable = [1, 2, 3]  # Теперь переменная становится списком
 print(f"Variable (list): {variable}, Type: {type(variable)}")
 
+
 # Переменная с функцией как значением
 def greet():
     return "Hello, World!"
+
 
 function_variable = greet  # Присваиваем функцию переменной
 print(f"Function Variable: {function_variable()}, Type: {type(function_variable)}")
